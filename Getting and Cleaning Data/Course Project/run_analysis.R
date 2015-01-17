@@ -95,4 +95,4 @@ detach(dat)
 head(dat)
 
 # write the new tidy data file
-write.table(dat, "tidydata4.txt", row.name=FALSE)
+write.table(dat, "tidydata.txt", row.name=FALSE)
