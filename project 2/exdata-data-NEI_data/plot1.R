@@ -2,7 +2,7 @@
 NEI <- readRDS("summarySCC_PM25.rds")
 SCC <- readRDS("Source_Classification_Code.rds")
 
-#performing some caclculations prior to making the plot using aggregate()
+#performing some calculations prior to making the plot using aggregate()
 dat <- aggregate(NEI$Emissions, by = list(Year = NEI$year), sum)
 
 #Cleaing the data to make it presentable

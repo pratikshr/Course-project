@@ -1,5 +1,5 @@
 library(ggplot2)
-
+# Read the dataset
 NEI <- readRDS("summarySCC_PM25.rds")
 SCC <- readRDS("Source_Classification_Code.rds")
 
